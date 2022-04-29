@@ -1,0 +1,8 @@
+supported_languages:
+  chinese: zh-Hans
+  english: en
+  japanese: ja
+  korean: ko 
+  vietnamese: vi
+  none: none
+
