@@ -22,7 +22,7 @@ help_handler is a callback function that will be called when
 user types '/help' in chat. It will reply with a brief guide msg
 on how to use this translator bot.
 '''
-@bot.on(events.NewMessage(pattern=r'/help')) # python raw string will treat each char as literal char, including slashes or backslashes
+@bot.on(events.NewMessage(pattern=r'/help|/start')) # python raw string will treat each char as literal char, including slashes or backslashes
 async def help_handler(event):
 
     sender = await event.get_sender()
